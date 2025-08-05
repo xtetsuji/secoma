@@ -1,0 +1,12 @@
+# APKファイルは動的にダウンロードされるため、Gitで管理しない
+AllMyBatteriesHelper.apk
+
+# 一時ファイル
+*.tmp
+*.temp
+
+# macOS
+.DS_Store
+
+# ダウンロード中の一時ファイル
+*.part
