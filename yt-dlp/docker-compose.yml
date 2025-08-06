@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  yt-dlp:
+    build: .
+    image: yt-dlp-env
+    volumes:
+      - ./downloads:/downloads
+    environment:
+      - URL=${URL}
+    stdin_open: true
+    tty: true
