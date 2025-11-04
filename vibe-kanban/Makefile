@@ -1,5 +1,7 @@
 # -*- makefile -*-
-
+# Vibe Kanban の CLI を呼び出すための Makefile エントリーポイント
+# VK_BACKEND_PORT はアプリケーションのバックエンドを束縛するポートを指定する。
+# 未指定の場合は 7777 が利用される。
 VK_BACKEND_PORT ?= 7777
 
 usage:
