@@ -1,6 +1,7 @@
 .env
 env
 .DS_Store
+.gemini/
 
 # GPG関連ファイル（機密情報）
 *.asc
